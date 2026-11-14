@@ -1,0 +1,37 @@
+
+# Python
+__pycache__/
+*.pyc
+*.py[cod]
+*.pyo
+venv/
+.venv
+env/
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Generated models
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# Generated reports
+reports/
+!reports/.gitkeep
+
+# Large or sensitive data
+data/*.csv
+
+# Temporary files
+*.log
+*.tmp
